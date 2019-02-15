@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="116111" started-at="2019-02-14T20:43:52Z" finished-at="2019-02-14T20:45:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="116111" started-at="2019-02-14T20:43:52Z" finished-at="2019-02-14T20:45:49Z">
+      <class name="scripts.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="36153" started-at="2019-02-14T20:43:52Z" finished-at="2019-02-14T20:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkLoginToEbay()[pri:0, instance:scripts.LoginTest@1e88b3c]" name="checkLoginToEbay" duration-ms="39075" started-at="2019-02-14T20:44:29Z" finished-at="2019-02-14T20:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginToEbay -->
+        <test-method status="PASS" signature="searchForItem()[pri:0, instance:scripts.LoginTest@1e88b3c]" name="searchForItem" duration-ms="38847" started-at="2019-02-14T20:45:08Z" finished-at="2019-02-14T20:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForItem -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:scripts.LoginTest@1e88b3c]" name="shutDown" is-config="true" duration-ms="1996" started-at="2019-02-14T20:45:47Z" finished-at="2019-02-14T20:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
