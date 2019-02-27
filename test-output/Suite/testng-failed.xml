@@ -5,6 +5,9 @@
     <classes>
       <class name="scripts.LoginTest">
         <methods>
+          <include name="checkLoginToEbay"/>
+          <include name="handleScreenResolution"/>
+          <include name="handleScreenRotation"/>
           <include name="searchForItem"/>
           <include name="shutDown"/>
           <include name="setUp"/>

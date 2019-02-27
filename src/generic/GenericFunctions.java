@@ -22,6 +22,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.appium.java_client.android.AndroidElement;
+
 public class GenericFunctions extends BaseClass implements ConstantItems {
 	
 	public static Workbook wb;
@@ -76,9 +78,9 @@ public class GenericFunctions extends BaseClass implements ConstantItems {
 	
 	public static void WaitExplicitly(WebElement itemVisible) {
 		
-		WebDriverWait wait=new WebDriverWait(driver, 10);
+		WebDriverWait wait=new WebDriverWait(driver, 20);
 		
-		WebElement element=wait.until(ExpectedConditions.elementToBeClickable(itemVisible));
+		WebElement element=wait.until(ExpectedConditions.visibilityOf(itemVisible));
 		
 		if(element.isDisplayed()==true) {
 			
@@ -109,23 +111,24 @@ public class GenericFunctions extends BaseClass implements ConstantItems {
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		
 		int x= element.getLocation().getX();
+		System.out.println("X value is: "+x);
 		int y=element.getLocation().getY();
-		
+		System.out.println("Y value is: "+y);
+
 		js.executeScript("window.scrollBy("+x+","+y+")");
 	
 	}
 	
-	public static void scrollUpWebpageToTop(WebElement element) {
-		
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		
-		int x= element.getLocation().getX();
-		int y=element.getLocation().getY();
-		
-		js.executeScript("window.scrollBy("+x+","+y+")");
 	
+		public static boolean elementIsPresent(WebElement element) {
+	    try {
+	        element.isDisplayed();
+	    } catch (org.openqa.selenium.NoSuchElementException e) {
+	        return false;
+	    }
+
+	    return true;
 	}
-	
 
 }
 

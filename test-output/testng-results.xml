@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="128112" started-at="2019-02-17T17:21:03Z" finished-at="2019-02-17T17:23:11Z">
+  <suite name="Suite" duration-ms="158116" started-at="2019-02-27T21:37:34Z" finished-at="2019-02-27T21:40:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="128112" started-at="2019-02-17T17:21:03Z" finished-at="2019-02-17T17:23:11Z">
+    <test name="Test" duration-ms="158116" started-at="2019-02-27T21:37:34Z" finished-at="2019-02-27T21:40:13Z">
       <class name="scripts.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.LoginTest@29ca901e]" name="setUp" is-config="true" duration-ms="47423" started-at="2019-02-17T17:21:03Z" finished-at="2019-02-17T17:21:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.LoginTest@29ca901e]" name="setUp" is-config="true" duration-ms="82170" started-at="2019-02-27T21:37:34Z" finished-at="2019-02-27T21:38:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkLoginToEbay()[pri:0, instance:scripts.LoginTest@29ca901e]" name="checkLoginToEbay" duration-ms="40210" started-at="2019-02-17T17:21:51Z" finished-at="2019-02-17T17:22:31Z">
+        <test-method status="PASS" signature="checkLoginToEbay()[pri:0, instance:scripts.LoginTest@29ca901e]" name="checkLoginToEbay" duration-ms="24050" started-at="2019-02-27T21:38:57Z" finished-at="2019-02-27T21:39:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginToEbay -->
-        <test-method status="PASS" signature="searchForItem()[pri:0, instance:scripts.LoginTest@29ca901e]" name="searchForItem" duration-ms="38808" started-at="2019-02-17T17:22:31Z" finished-at="2019-02-17T17:23:10Z">
+        <test-method status="PASS" signature="handleScreenResolution()[pri:0, instance:scripts.LoginTest@29ca901e]" name="handleScreenResolution" duration-ms="173" started-at="2019-02-27T21:39:21Z" finished-at="2019-02-27T21:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleScreenResolution -->
+        <test-method status="PASS" signature="handleScreenRotation()[pri:0, instance:scripts.LoginTest@29ca901e]" name="handleScreenRotation" duration-ms="6049" started-at="2019-02-27T21:39:21Z" finished-at="2019-02-27T21:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleScreenRotation -->
+        <test-method status="PASS" signature="searchForItem()[pri:0, instance:scripts.LoginTest@29ca901e]" name="searchForItem" duration-ms="43252" started-at="2019-02-27T21:39:27Z" finished-at="2019-02-27T21:40:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForItem -->
-        <test-method status="PASS" signature="shutDown()[pri:0, instance:scripts.LoginTest@29ca901e]" name="shutDown" is-config="true" duration-ms="1600" started-at="2019-02-17T17:23:10Z" finished-at="2019-02-17T17:23:11Z">
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:scripts.LoginTest@29ca901e]" name="shutDown" is-config="true" duration-ms="2353" started-at="2019-02-27T21:40:10Z" finished-at="2019-02-27T21:40:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->

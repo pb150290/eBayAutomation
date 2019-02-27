@@ -38,7 +38,8 @@ public class DeviceVersionFinder {
             String line;
             while ((line = input.readLine()) != null) {
                 if (!line.isEmpty()) {
-                	sb.append(line.substring(29, 32));
+                	System.out.println(line);
+                	sb.append(line.substring(29, 30));
                 }
             }
             input.close();
